@@ -1,0 +1,55 @@
+:root {
+  /* FONTS START */
+  --font-family-main: 'Roboto';
+
+  --font-size-xs: 11px;
+  --line-height-xs: 13px;
+  --font-xs: var(--font-size-xs) / var(--line-height-xs) var(--font-family-main);
+
+  --font-size-s: 12px;
+  --line-height-s: 14px;
+  --font-s: var(--font-size-s) / var(--line-height-s) var(--font-family-main);
+
+  --font-size-sm: var(--font-size-s);
+  --line-height-sm: 20px;
+  --font-sm: var(--font-size-sm) / var(--line-height-sm) var(--font-family-main);
+
+  --font-size-m: 13px;
+  --line-height-m: var(--line-height-sm);
+  --font-m: var(--font-size-m) / var(--line-height-m) var(--font-family-main);
+
+  --font-size-l: 14px;
+  --line-height-l: 22px;
+  --font-l: var(--font-size-l) / var(--line-height-l) var(--font-family-main);
+
+  --font-size-l-big: 15px;
+  --line-height-l-big: 24px;
+  --font-l-big: var(--font-size-l-big) / var(--line-height-l-big) var(--font-family-main);
+
+  --font-size-xl: 22px;
+  --line-height-xl: 20px;
+  --font-xl: var(--font-size-xl) / var(--line-height-xl) var(--font-family-main);
+
+  --font-size-extra: 28px;
+  --line-height-extra: 33px;
+  --font-extra: var(--font-size-extra) / var(--line-height-extra) var(--font-family-main);
+
+  /* FONTS END */
+
+
+  /* COLORS START */
+  --bg-main: #fff;
+  --primary-color: #2E2E33;
+  --secondary-color: #999999;
+  --light-gray: #636B7F;;
+  --accent-color: #F5F5F7;
+  --text-btn-color: #fff;
+  --btn-primary-bg: #4056a1;
+  --btn-successful-bg: #00b177;
+  --red-primary: #FF0000;
+  --red-accent: #f23c30;
+  --red-dark: #D9362B;
+  --yellow-price: #FFDC38;
+
+  /* COLORS END */
+}

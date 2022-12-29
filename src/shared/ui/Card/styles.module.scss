@@ -1,0 +1,11 @@
+.Card {
+  /* VARIABLES START */
+  --card-bg: var(--bg-main);
+  --border-bg: #F5F5F7;
+
+  /* VARIABLES END */
+  padding: 30px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-bg);
+  color: var(--primary-color);
+}

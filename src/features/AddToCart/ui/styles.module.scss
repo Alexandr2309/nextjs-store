@@ -1,0 +1,58 @@
+.root {
+  display: flex;
+  position: relative;
+}
+
+.change {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: var(--accent-color);
+  border-radius: 30px;
+  width: 125%;
+  padding: 10px 15px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 44px);
+  transform: translateY(-50%);
+  z-index: 2;
+
+  & > button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    padding: 5px;
+    transition: all 0.35s;
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
+}
+
+.text {
+  margin: 0 6px;
+}
+
+.remove {
+  flex: 1 1 100%;
+  transition: all 0.35s;
+  &:hover {
+    box-shadow: 0 0 14px var(--btn-successful-bg);
+  }
+}
+
+.large {
+  flex: 0 1 calc(50% + 40px);
+}
+
+.add {
+  position: relative;
+  z-index: 3;
+  transition: all 0.35s;
+  &:hover {
+    box-shadow: 0 0 14px var(--btn-primary-bg);
+  }
+}

@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heart {
+  padding: 14px 12px;
+  border-radius: 50%;
+}

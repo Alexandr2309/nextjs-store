@@ -1,0 +1,49 @@
+.root {
+  font: var(--font-xs);
+  font-weight: 500;
+  color: var(--text-btn-color);
+  border-radius: 90px;
+  padding: 10px 20px;
+  opacity: 0.8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.4s ease-in;
+  &:hover {
+    .circle {
+      box-shadow: 0 0 12px var(--btn-primary-bg);
+    }
+  }
+}
+
+.circle {
+  opacity: 0.1;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 90px;
+  border-color: #fff;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 20px;
+  height: 20px;
+  margin-left: -5px;
+  z-index: -1;
+}
+
+.white {
+  color: #fff;
+}
+
+.gray {
+  color: var(--primary-color);
+  opacity: 0.5;
+  .circle {
+    opacity: 1;
+  }
+}
+
+.clear {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+}
